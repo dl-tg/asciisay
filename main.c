@@ -48,6 +48,7 @@ int main(int argc, char *argv[]) {
             printf("\n");
         } else {
             printf("Error: Message too long. Expected length %i, got %zu\n", MAX_MSG_LENGTH, strlen(argv[1]));
+            return 1;
         }
     } else {
         printf("Error: Missing arguments\n");
