@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_MSG_LENGTH 1024 // Maximum message length
-#define MAX_ASCII_LENGTH 4096 // Maximum ASCII art length
-#define MAX_LINE_LENGTH 64 // Maximum line length for word wrapping
+// Maximum message length
+#define MAX_MSG_LENGTH 1024
+// Maximum ASCII art size
+#define MAX_ASCII_LENGTH 4096
+// Maximum message line length for word wrapping
+#define MAX_LINE_LENGTH 64
 
 // Word wrap for the message
 void wrap_msg(char *message) {
